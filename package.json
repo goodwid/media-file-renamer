@@ -4,20 +4,20 @@
   "description": "Utility to rename movies",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch"
+    "test": "jest -i",
+    "test:watch": "jest -i --watch"
   },
   "author": "David Goodwin <goodwid@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.0",
-    "chalk": "^2.4.0",
-    "dotenv": "^5.0.1",
+    "axios": "^0.19.2",
+    "chalk": "^4.0.0",
+    "dotenv": "^8.2.0",
     "omdb-api-pt": "^2.0.1"
   },
   "devDependencies": {
     "chai": "^4.1.2",
-    "eslint": "^4.19.1",
-    "jest": "^24.9.0"
+    "eslint": "^6.8.0",
+    "jest": "^25.3.0"
   }
 }
